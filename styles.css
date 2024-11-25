@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header input {
+    padding: 5px;
+    width: 200px;
+}
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.product-list, .cart-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item, .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(25% - 20px);
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+.search-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #555;
+}
